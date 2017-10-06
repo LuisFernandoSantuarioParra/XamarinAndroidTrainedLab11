@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="@string/StartActivity_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/StartActivity" />
+    <Button
+        android:text="@string/ClicksCounter_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ClicksCounter" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ManualCounter" />
+    <TextView
+        android:text="Mensaje de Confirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:textColor="@android:color/holo_blue_light"
+        android:textAlignment="center"
+        android:paddingTop="50px"
+        android:paddingLeft="200px" />
+</LinearLayout>
